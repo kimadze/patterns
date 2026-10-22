@@ -4,7 +4,7 @@ The public catalog is at `/`; the publishing form is at `/admin`.
 
 Set two encrypted **Production** environment variables in Vercel → patterns → Settings → Environment Variables:
 
-- `ADMIN_PASSWORD`: a unique password of at least 16 characters, preferably a generated 24+ character password. This is the password used on `/admin`.
+- `ADMIN_PASSWORD`: a unique password of at least 8 characters; the owner chooses the password. This is the password used on `/admin`.
 - `GITHUB_TOKEN`: a fine-grained GitHub personal access token owned by `kimadze`, limited to the **patterns** repository with **Contents: Read and write** and the default Metadata read permission. No other repositories or account permissions are needed. Use an expiry and renew when required.
 
 Then redeploy the latest commit so the functions receive these values. Enter credentials directly in Vercel; do not commit them or paste them into the site source. GitHub token stays server-side and is never sent to the browser. Missing configuration disables login and writes.
