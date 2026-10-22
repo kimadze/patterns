@@ -1,1 +1,23 @@
-{"schemaVersion":1,"lessons":[]}
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "id": "custom-ba295ba1-e444-42ac-a0f0-2210ceb10694",
+      "title": "test",
+      "lesson": "asfasfasf as fasfasf",
+      "summary": "test",
+      "category": "tesdt",
+      "kind": "Bullish",
+      "level": "მარტივი",
+      "tags": [
+        "safasfasf"
+      ],
+      "imageIds": [
+        "custom-41fd853d-bf52-40d0-82d9-88337eec7708.webp"
+      ],
+      "sequence": null,
+      "createdAt": "2026-10-22T17:23:42.544Z",
+      "updatedAt": "2026-10-22T17:23:42.544Z"
+    }
+  ]
+}
