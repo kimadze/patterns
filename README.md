@@ -1,7 +1,11 @@
 # Pattern Atlas
 
-Compact Georgian educational library: 14 complete original lesson cards, 21 unchanged original images.
+Compact Georgian educational pattern catalog, with 14 original lessons and 21 unchanged original images. Additional patterns are published through a protected admin.
 
-Open `index.html` through a static server or Vercel. No build/dependencies. The web version loads original images on demand. `Pattern_Atlas_Offline.html` embeds the full collection for offline use.
-
-Features: full-text search, category/direction/progress filters, grid/list views, persistent completion progress, accessible lesson reader, adjustable text size, full-resolution image zoom, original text/image archives and offline download. All source text and image bytes are preserved.
+- Public catalog: `/`
+- Protected publishing form: `/admin`
+- Setup: [ADMIN_SETUP.md](ADMIN_SETUP.md)
+- Static files: `public/`; Node.js API: `api/`; server-only helpers: `lib/`.
+- No dependencies or build step. Deploy the repository to Vercel with output directory `public`.
+- Full-text search, filters, grid/list, persistent study progress, readable lessons, image zoom and original archives.
+- Offline download feature removed as requested.
