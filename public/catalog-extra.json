@@ -3,21 +3,21 @@
   "lessons": [
     {
       "id": "custom-ba295ba1-e444-42ac-a0f0-2210ceb10694",
-      "title": "test",
-      "lesson": "asfasfasf as fasfasf",
-      "summary": "test",
-      "category": "tesdt",
+      "title": "testtesttesttesttest",
+      "lesson": "testtesttesttesttesttesttesttesttesttesttesttesttesttest",
+      "summary": "testtesttest",
+      "category": "ამონაწერი",
       "kind": "Bullish",
       "level": "მარტივი",
       "tags": [
         "safasfasf"
       ],
       "imageIds": [
-        "custom-41fd853d-bf52-40d0-82d9-88337eec7708.webp"
+        "custom-ad63ec9a-33d1-4a28-9c6b-416a41c61c08.webp"
       ],
       "sequence": null,
       "createdAt": "2026-10-22T17:23:42.544Z",
-      "updatedAt": "2026-10-22T17:23:42.544Z"
+      "updatedAt": "2026-10-22T17:24:53.740Z"
     }
   ]
 }
